@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.to-do-list {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(31, 37, 43);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    padding: 20px;
+}
+
+
+
+input{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-add{
+    background-color: rgb(158, 255, 158);
+    color: white;
+    width: 45px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.task-component-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+p{
+    display: inline-block;
+    padding: 10px;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    padding: 0;  /* pois estava atrapalhando na hora de centralizar */
+     
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px 0;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    padding: 20px 0;
+    
+}
+
+.btn-delete{
+    padding: 4px ;
+    margin: 0 5px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.btn-move{
+    width: px;
+    height: 25px;
+    margin: 0 3px;
+    background-color: rgb(132, 206, 255);
+}
